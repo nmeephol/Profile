@@ -237,5 +237,27 @@
     padding: 0px;
     padding-top: 10px;
   }
+
+  .bachelor{
+    flex-direction: column;
+  }
   
+  .school{
+    flex-direction: column;
+  }
+
+  .year{
+    margin: 0px;
+    width: auto;
+    margin-left: auto;
+    font-size: 10px;
+  }
+
+  .edinfo{
+    width: 100%;
+  }
+
+  .edinfo p{
+    margin-bottom: 0px;
+  }
 }
