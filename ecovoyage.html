@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY Profile</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <body>
+        <header>
+            <h2>EcoVoyage</h2>
+        </header>
+
+        <section>
+            <nav>
+                <div class="nav-header">
+                    <h4>EXPLORATION</h4>
+                </div>
+                <div class="nav-bt">
+                    <button onclick="document.location='peekabook.html'"><p>Peek A Book</p></button><br>
+                    <button onclick="document.location='farm.html'"><p>Broiler Farm Design</p></button><br>
+                    <button onclick="document.location='ecovoyage.html'"><p>EcoVoyage</p></button><br>
+                    <button onclick="document.location='index.html'"><p>My Profile</p></button>
+                </div>
+            </nav>
+        
+            <article class="art-column">
+                    <iframe
+                        src="https://youtube.com/embed/UzGLtiCyIho">
+                    </iframe>
+                <div class="description">
+                    <h3>About</h3>
+                    <p>EcoVoyage is a web application dedicated to promoting sustainable tourism. It allows users to discover eco-friendly travel destinations, activities connected to nature, and environmentally certified accommodations. The platform also helps users plan their journeys using public transportation, encouraging greener travel options. EcoVoyage is designed to make responsible travel both accessible and inspiring, supporting eco-conscious choices without compromising on convenience.
+                    </p>
+                    <div class="git">
+                        <button class="linktogit" onclick="newtab()"><img src="img/tech/github.png" ></button>
+                        <p>Get source code</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <p>© 2025</p>
+        </footer>
+
+    </body>
+    <script>
+        function newtab() {
+            window.open("https://github.com/nmeephol/EcoVoyage", "_blank");
+        }
+    </script>
+</html>

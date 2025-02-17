@@ -1,0 +1,62 @@
+iframe {
+    align-items: center;
+    width: 70%;
+}
+
+.git{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.linktogit{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.153);
+}
+
+.linktogit img{
+    height: 70px;
+    width: 70px;
+}
+
+.git p{
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+.art-column{
+    display: flex;
+}
+
+.description{
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    article{
+        align-items: center;
+        
+    }
+    .art-column{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .description{
+        width: 100%;
+    }
+
+}

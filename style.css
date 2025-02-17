@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: black;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+    padding-top: 30px;
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer {
+    background-color:black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .nav-header{
+    margin: 10px;
+  }
+
+  .nav-bt button{
+    margin: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.077);
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+
+  .nav-bt button:hover {
+    background: #dcdcdc;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .column-left{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column-right{
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .profileImg img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+  }
+
+  .info h1{
+    font-size: 24px;
+  }
+
+  .contact{
+    border-top: solid 1px #7a7a7a;
+    padding-top: 10px;
+  }
+
+  .contact .icon{
+    width: 18px;
+    height: 18px;
+  }
+
+  .contact .phone .icon{
+    width: 16px;
+    height: 16px;
+  }
+
+  .contact div{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .contact p {
+    margin: 5px;
+  }
+
+  .column-right h1{
+    margin-bottom: 5px;
+  }
+
+  .card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .card .bachelor{
+    border-bottom: solid 1px #7a7a7a;
+  }
+
+  .card p{
+    margin-top: 2px;
+    padding-left: 10px;
+  }
+
+  .card h4{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  .bachelor{
+    display: flex;
+  }
+
+  .school{
+    display: flex;
+  }
+
+  .edinfo{
+    width: 80%;
+  }
+
+  .edinfo h3{
+    margin-bottom: 5px;
+  }
+
+  .year{
+    float: right;
+    width: 20%;
+    font-size: 14px;
+  }
+
+  .content{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .content p{
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  .box {
+    background-color: #f1f1f1;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.153);
+  }
+
+ .box img{
+    width: 40px;
+    height: 40px;;
+ }
+
+ .box p{
+    padding: 0px;
+ }
+
+ .softskill li{
+    margin-bottom: 5px;
+ }
+
+ @media screen and (max-width: 768px) {
+  .column {
+      flex-direction: column; /* เปลี่ยนเป็นแนวตั้ง */
+      align-items: center;
+  }
+  .column-left{
+    align-items: center;
+    width: 100%;
+  }
+
+  .column-right{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  nav{
+    align-items: center;
+  }
+
+  article{
+    padding: 0px;
+    padding-top: 10px;
+  }
+  
+}
